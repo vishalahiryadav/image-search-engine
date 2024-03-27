@@ -1,0 +1,30 @@
+@media screen and (max-width: 480px) {
+    body {
+        background: #466dac;
+    }
+
+    h1 {
+        margin: 40px auto 50px;
+    }
+
+    form {
+        height: 60px;
+    }
+
+    form input {
+        padding: 0 15px;
+    }
+
+    #search-result {
+        width: 90%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    #search-result img {
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+}
